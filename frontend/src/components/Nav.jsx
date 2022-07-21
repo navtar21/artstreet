@@ -6,10 +6,10 @@ import { useState } from "react";
 function Nav() {
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <div className="">
-      <nav className="flex items-center justify-between bg-SpaceCadet border-x-3 border-white ">
+    <div className="bg-gray-200 m-20 rounded-3xl drop-shadow-xl">
+      <nav className="flex items-center border-x-3 m-10">
         <Link to="/welcome">
-          <img src="./src/assets/logo.png" alt="logo" className="ml-4" />
+          <img src="./src/assets/logo.png" alt="logo" className="m-10" />
         </Link>
         {/* <img
           src={navOpen ? CloseBurger : OpenBurger}
@@ -29,8 +29,14 @@ function Nav() {
               onClick={() => setNavOpen(!navOpen)}
             >
               <span className="font-bold mr-1 text-White">
-                <img src="./src/assets/acceuil.png" alt="maison" className="" />{" "}
-                ACCEUILLE
+                <div className="">
+                  <img
+                    src="./src/assets/acceuil.png"
+                    alt="maison"
+                    className=""
+                  />{" "}
+                </div>
+                ACCEUIL
               </span>
             </Link>
           </li>
