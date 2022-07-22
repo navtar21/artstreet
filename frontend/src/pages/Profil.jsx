@@ -4,7 +4,7 @@ function Profil() {
   return (
     <main>
       <Nav />
-      <p>Page en attente.</p>
+      <p className="text-5xl text-center underline p-10">PROFILE</p>
     </main>
   );
 }

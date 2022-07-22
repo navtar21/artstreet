@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 
+import logo from "@assets/logo.png";
+
 function Home() {
   return (
     <main>
       <div className="bg-gray-200 m-20 rounded-3xl drop-shadow-xl">
         <div className="flex m-10">
-          <img src="./src/assets/logo.png" alt="logo" className="p-10" />
+          <img src={logo} alt="logo" className="p-10" />
           <h1 className="text-7xl text-center flex-auto p-20">Art Street</h1>
         </div>
       </div>
