@@ -1,7 +1,10 @@
+import Nav from "@components/Nav";
+
 function Profil() {
   return (
     <main>
-      <p>Page en attente.</p>
+      <Nav />
+      <p className="text-5xl text-center underline p-10">PROFILE</p>
     </main>
   );
 }
